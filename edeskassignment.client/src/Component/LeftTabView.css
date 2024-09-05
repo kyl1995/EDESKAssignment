@@ -1,0 +1,38 @@
+.left-tab-view {
+    display: flex;
+    height: 100vh;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+}
+
+.tab-button {
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    color: #418bca;
+}
+
+    .tab-button:hover {
+        background-color: #ddd;
+    }
+
+    .tab-button.active {
+        background-color: #ccc;
+        font-weight: bold;
+        color:black;
+    }
+
+.tab-content {
+    flex-grow: 1;
+    padding: 20px;
+}

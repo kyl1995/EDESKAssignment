@@ -1,0 +1,11 @@
+.tree-container {
+    display: flex;
+    flex-direction: column; /* Make the tree take up vertical space */
+    width: 100%; /* Make the tree take the full width of its container */
+    height: 100vh; /* Make the tree take the full height of the viewport */
+    overflow: auto; /* Add scroll if content overflows */
+}
+
+.treebeard {
+    flex: 1;
+}
